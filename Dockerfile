@@ -1,4 +1,3 @@
 FROM php:7.0-apache
-COPY src/ /var/www/html
+COPY index.html /var/www/html/index.html
 EXPOSE 80
-
